@@ -1,0 +1,26 @@
+.Project{
+    margin: 2rem 14rem;
+    /* justify-content: center;
+    text-align: center; */
+    width: 6.6rem;
+
+}
+.title{
+    display: flex;
+width: fit-content;
+}
+.head{
+    display: flex;
+    margin-left: 25rem;
+    flex-direction: row;
+    width: fit-content;
+}
+.title1{
+    margin: 2rem 10rem;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    width: fit-content;
+    height: 30rem;
+    cursor: pointer;
+}

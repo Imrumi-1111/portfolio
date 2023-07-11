@@ -1,0 +1,40 @@
+.Navbar{
+    margin: auto;
+    width: 96.65%;
+    display: flex;
+    justify-content: space-around;
+    gap: 13rem;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(205, 245, 255);
+    opacity: 0.9;
+}
+.Navbar:hover{
+    opacity: 1;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.Menu{
+    display: flex;
+    margin-right: 1.5rem;
+    display: none;
+}
+.MenuIcon{
+    cursor: pointer;
+    margin-right: 1rem;
+    display: none;
+}
+.RxCross2{
+    display: none;
+}
+.link{
+    display: flex;
+    gap: 7rem;
+}
+
+

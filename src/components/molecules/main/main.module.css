@@ -1,0 +1,32 @@
+.main {
+  margin: 13rem 11rem;
+  border: 0.1rem;
+  margin-top: 13rem;
+  height: 30rem;
+}
+.main3 {
+  color: antiquewhite;
+}
+.btn {
+  margin: auto;
+}
+.download {
+  width: 10rem;
+  height: 3rem;
+  background-color: antiquewhite;
+  opacity: 0.6;
+  border-radius: 0.61rem;
+}
+.download:hover {
+  opacity: 1;
+}
+.talk {
+  width: 10rem;
+  height: 3rem;
+  background-color: aqua;
+  opacity: 0.6;
+  border-radius: 0.61rem;
+}
+.talk:hover {
+  opacity: 1;
+}

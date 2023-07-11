@@ -1,0 +1,23 @@
+.input1 {
+  width: 15rem;
+  
+  align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    width: 30rem;
+    height: 10rem;
+}
+.Contact{
+  margin: 5rem;
+  display: flex;
+    height: 30rem;
+    justify-content: center;
+}
+.Button{
+ 
+}
+.inputbox{
+  display: flex;
+}
