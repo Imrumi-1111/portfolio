@@ -10,14 +10,16 @@
     height: 10rem;
 }
 .Contact{
-  margin: 5rem;
+  margin: 0.1rem;
   display: flex;
     height: 30rem;
     justify-content: center;
+    width: 100%;
 }
-.Button{
+/* .Button{
  
-}
+} */
 .inputbox{
   display: flex;
+  margin-top: 5rem;
 }

@@ -5,12 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Section from './components/molecules/section/section';
+import Project from './components/molecules/projects/projects';
+import Contact from './components/molecules/contact/contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <Routes>
     <Route path = "/" element={<App/>}/>
+    <Route path = "/about" element={<Section/>}/>
+    <Route path = "/projects" element={<Project/>}/>
+    <Route path = "/contact" element={<Contact/>}/>
     </Routes>
   </Router>
 );

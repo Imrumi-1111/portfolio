@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import styles from './contact.module.css'
 //
 import { Button } from '@mui/material';
+import Navbar from '../../atoms/navbar/navbar';
+import { Fragment } from 'react';
+import Footer from '../../atoms/footer/footer';
 //import { Link } from 'react-router-dom'
 
 const Contact = () => {
@@ -30,7 +33,10 @@ const Contact = () => {
     };
   
     return (
+    <Fragment>
+      <Navbar/>
       <div className={styles.Contact}>
+         
         {/* <Link to ='/ ' >
                 <ArrowBack className ='arrow'/>
             </Link> */}
@@ -66,6 +72,8 @@ const Contact = () => {
         </div>
       </form>
       </div>
+      <Footer/>
+      </Fragment>
     );
   ;
   
